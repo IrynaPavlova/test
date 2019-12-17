@@ -20,23 +20,23 @@ import styles from "./profile.module.css";
  
 
 const Profile = ({ user }) => (
- <div className="pfrofile">
+ <div className= {`${styles.profile} ${styles.container}`}>
    <div className="description">
-    <img src={user.avatar} alt={user.alt} />
+    <img className={styles.avatar} src={user.avatar} alt={user.alt} />
     <p className="name">{user.name}</p>
     <p className="tag">@{user.tag}</p>
     <p className="location">{user.location}</p>
     </div>
-    <ul className="stats">
-    <li>
+    <ul className={styles.stats}>
+    <li className={styles.statsItem}>
       <span className="label">Followers</span>
       <span className="quantity">{user.stats.followers}</span>
     </li>
-    <li>
+    <li className={styles.statsItem}>
       <span className="label">Views</span>
       <span className="quantity">{user.stats.views}</span>
     </li>
-    <li>
+    <li className={styles.statsItem}>
       <span className="label">Likes</span>
       <span className="quantity">{user.stats.likes}</span>
     </li>

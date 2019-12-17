@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import styles from './friends.module.css';
 
 const FriendsList = ({friends}) => (
-<ul className="friend-list">
+<ul className={`${styles.friendsList} ${styles.container}`}>
     {friends.map(elem => 
     <FriendsListItem key={elem.id}
     avatar = {elem.avatar}

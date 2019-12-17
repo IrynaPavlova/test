@@ -1,0 +1,36 @@
+.container {
+    width: 768px;
+    margin: 0 auto;
+}
+
+.statistics {
+    width: 268px;
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 2px 0px rgba(2, 2, 2, 0.2);
+    padding-top: 30px;
+}
+
+.title {
+    font-size: 16px;
+    color: rgb(71, 89, 101);
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.statList {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.item {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+}
+  

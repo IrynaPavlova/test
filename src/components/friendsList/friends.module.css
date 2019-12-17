@@ -1,0 +1,29 @@
+.container {
+    width: 768px;
+    margin: 0 auto;
+}
+
+.friendsList {
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    padding: 14px;
+    box-shadow: 0px 2px 2px 0px rgba(2, 2, 2, 0.2);
+    margin: 0 auto;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    margin-right: 30px;
+    border-radius: 6px;
+}
+
+.name {
+    font-size: 16px;
+}

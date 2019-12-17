@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styles from './transactions.module.css';
 
 const TransactionHistory = ({items}) => (
-<table className="transaction-history">
+<table className={`${styles.transactionsHistory} ${styles.container}`}>
   <thead>
     <tr>
       <th>Type</th>
