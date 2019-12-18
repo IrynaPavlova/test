@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/IrynaPavlova/goit-react-hw-01-components.git/static/css/main.2641aef9.chunk.css",
+    "main.js": "/IrynaPavlova/goit-react-hw-01-components.git/static/js/main.60541ff5.chunk.js",
+    "main.js.map": "/IrynaPavlova/goit-react-hw-01-components.git/static/js/main.60541ff5.chunk.js.map",
+    "runtime-main.js": "/IrynaPavlova/goit-react-hw-01-components.git/static/js/runtime-main.47910206.js",
+    "runtime-main.js.map": "/IrynaPavlova/goit-react-hw-01-components.git/static/js/runtime-main.47910206.js.map",
+    "static/js/2.b9632138.chunk.js": "/IrynaPavlova/goit-react-hw-01-components.git/static/js/2.b9632138.chunk.js",
+    "static/js/2.b9632138.chunk.js.map": "/IrynaPavlova/goit-react-hw-01-components.git/static/js/2.b9632138.chunk.js.map",
+    "index.html": "/IrynaPavlova/goit-react-hw-01-components.git/index.html",
+    "precache-manifest.9ccfb8e8454652b58492bd0ed50f5a47.js": "/IrynaPavlova/goit-react-hw-01-components.git/precache-manifest.9ccfb8e8454652b58492bd0ed50f5a47.js",
+    "service-worker.js": "/IrynaPavlova/goit-react-hw-01-components.git/service-worker.js",
+    "static/css/main.2641aef9.chunk.css.map": "/IrynaPavlova/goit-react-hw-01-components.git/static/css/main.2641aef9.chunk.css.map",
+    "static/js/2.b9632138.chunk.js.LICENSE": "/IrynaPavlova/goit-react-hw-01-components.git/static/js/2.b9632138.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47910206.js",
+    "static/js/2.b9632138.chunk.js",
+    "static/css/main.2641aef9.chunk.css",
+    "static/js/main.60541ff5.chunk.js"
+  ]
+}
