@@ -1,29 +1,45 @@
 .container {
-    width: 768px;
-    margin: 0 auto;
+  width: 768px;
+  margin: 0 auto;
 }
 
 .friendsList {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .item {
-    display: flex;
-    align-items: center;
-    width: 250px;
-    padding: 14px;
-    box-shadow: 0px 2px 2px 0px rgba(2, 2, 2, 0.2);
-    margin: 0 auto;
+  display: flex;
+  align-items: center;
+  width: 250px;
+  padding: 14px;
+  box-shadow: 0px 2px 2px 0px rgba(2, 2, 2, 0.2);
+  margin: 0 auto;
 }
 
 .avatar {
-    width: 80px;
-    height: 80px;
-    margin-right: 30px;
-    border-radius: 6px;
+  width: 80px;
+  height: 80px;
+  margin-right: 30px;
+  border-radius: 6px;
 }
 
 .name {
-    font-size: 16px;
+  font-size: 16px;
+}
+
+.isOn,
+.isOff {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.isOn {
+  background-color: rgb(38, 233, 38);
+}
+
+.isOff {
+  background-color: rgb(241, 43, 43);
 }

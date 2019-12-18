@@ -11,6 +11,8 @@
     "react-scripts": "3.3.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -32,9 +34,13 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "husky": "^3.1.0",
+    "install": "^0.13.0",
     "lint-staged": "^9.5.0",
+    "npm": "^6.13.4",
     "prettier": "^1.19.1",
     "prop-types": "^15.7.2"
-  }
+  },
+  "homepage": "https://irynapavlova.github.io/goit-react-hw-01-components/"
 }
